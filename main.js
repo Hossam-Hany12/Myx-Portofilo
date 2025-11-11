@@ -10,21 +10,23 @@ document.getElementById("home").onclick = function () {
   window.scroll({
     top: 0,
     behavior: "smooth",
-  });
+   });
+  };
   document.getElementById("projectS").onclick = function () {
   window.scroll({
     top: 1217,
     behavior: "smooth",
-  });
+   });
+  };
     document.getElementById("contacT").onclick = function () {
   window.scroll({
     top: 1710,
     behavior: "smooth",
   });
-
+};
     
   document.getElementById("main").style.background = "linear-gradient(#200016)";
-};
+
 document.getElementById("aboutS").onclick = function () {
   window.scroll({
     top: 542,
