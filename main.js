@@ -11,12 +11,12 @@ document.getElementById("home").onclick = function () {
     top: 0,
     behavior: "smooth",
   });
-  document.getElementById("projects").onclick = function () {
+  document.getElementById("projectS").onclick = function () {
   window.scroll({
     top: 1217,
     behavior: "smooth",
   });
-    document.getElementById("contact").onclick = function () {
+    document.getElementById("contacT").onclick = function () {
   window.scroll({
     top: 1710,
     behavior: "smooth",
