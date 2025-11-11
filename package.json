@@ -1,0 +1,12 @@
+{
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "description": "Simple HTML + Tailwind CSS setup",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./styles.css -o ./output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
