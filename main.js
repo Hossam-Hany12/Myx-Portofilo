@@ -6,12 +6,12 @@ let river = document.getElementById("river");
 let boat = document.getElementById("boat6");
 let mountains7 = document.getElementById("mountains7");
 let novil = document.getElementById("novil");
-document.getElementById("home").onclick = function () {
+document.getElementById("aboutS").onclick = function () {
   window.scroll({
-    top: 0,
+    top: 542,
     behavior: "smooth",
-   });
-  };
+  });
+};
   document.getElementById("projectS").onclick = function () {
   window.scroll({
     top: 1217,
@@ -23,16 +23,14 @@ document.getElementById("home").onclick = function () {
     top: 1710,
     behavior: "smooth",
   });
-};
-    
-  document.getElementById("main").style.background = "linear-gradient(#200016)";
-
-document.getElementById("aboutS").onclick = function () {
+}; 
+document.getElementById("home").onclick = function () {
   window.scroll({
-    top: 542,
+    top: 0,
     behavior: "smooth",
-  });
-};
+   });
+  };
+document.getElementById("main").style.background = "linear-gradient(#200016)";
 const aboutText = document.querySelector("#about p");
 const originalText = aboutText.textContent;
 window.onscroll = function () {
