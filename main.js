@@ -11,6 +11,18 @@ document.getElementById("home").onclick = function () {
     top: 0,
     behavior: "smooth",
   });
+  document.getElementById("projects").onclick = function () {
+  window.scroll({
+    top: 1217,
+    behavior: "smooth",
+  });
+    document.getElementById("contact").onclick = function () {
+  window.scroll({
+    top: 1710,
+    behavior: "smooth",
+  });
+
+    
   document.getElementById("main").style.background = "linear-gradient(#200016)";
 };
 document.getElementById("aboutS").onclick = function () {
